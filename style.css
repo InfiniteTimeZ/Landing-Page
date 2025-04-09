@@ -1,0 +1,27 @@
+.main-body-div{
+    display:flex;
+    flex-direction: column;
+
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+.Header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+.header-links a{
+text-decoration: none;
+color: white
+}
+.h1-logo{
+    color: white;
+
+}
+.text-image-sign-up{
+    background-color: #1F2937;
+}
