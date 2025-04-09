@@ -59,6 +59,7 @@ padding-left: 40px;
     max-height: 272px;
     margin-left: auto;    
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
  
 .text-image-sign-up{
@@ -128,3 +129,77 @@ padding-left: 40px;
 .card4 p{
     width:150px;
 }
+.inspiring-quote-div{
+    background-color: rgb(211, 211, 211, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .inspiring-quote{
+ font-size: 40px;
+ text-align: center;
+ margin: 0 80px;
+ font-weight:lighter;
+ padding-top: 50px;
+ font-style: italic;
+ width: 75%;
+ align-self: center;
+  }
+ .author-tag{
+    margin-right: 90px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+ }
+ .copyright-footer{
+    text-align: center;
+    background-color: #1F2937;
+    height: 50px;
+    color: white;
+    margin: auto;
+    padding-top: 30px;
+
+
+
+ }
+ .white-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+ }
+ .blue-box{
+    display: flex;
+    background-color: #3B82F6;
+    width: 60%;
+    padding:35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+ }
+ .call-to-action{
+    color:white;
+    font-size: 35px;
+    margin-bottom: 0;
+ }
+ .sign-up-button2{
+    margin-left: auto;
+    width: 150px;
+    height: 60px;
+    border: 2px solid white;
+    background-color: #3B82F6;
+    border-radius: 10px;
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+
+ }
+ .call-to-action-text{
+    margin-left: 50px;
+ }
+ .subtext-call{
+    margin-top: 0;
+    color: white;
+ }
