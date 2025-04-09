@@ -13,10 +13,17 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-right: 199px;
+
 }
 .header-links a{
 text-decoration: none;
-color: white
+color: white;
+font-size: 20px;
+padding-right: 10px;
+}
+.header-links a:active{
+    color: gainsboro;
 }
 .h1-logo{
     color: white;
@@ -25,3 +32,40 @@ color: white
 .text-image-sign-up{
     background-color: #1F2937;
 }
+.Header-container,
+.text-image-sign-up{
+display: flex;
+flex-direction: row;   
+padding-left: 40px;
+}
+.sign-up-button{
+    background-color: blue;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color:white;
+    background-color:   #3B82F6;
+    border: none;
+    font-weight: bold;
+}
+.sign-up-button:active{
+    background-color: #3B82B5;
+    
+}
+.bug-png{
+    width: 400px;
+    border: black;
+    border-style: bold 10px black;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.text-image-sign-up{
+    padding-right: 200px;
+    padding-top: 100px;
+    color: white;
+
+}
+.text-sign-up{
+    padding-right: 40px;
+}
+ 
